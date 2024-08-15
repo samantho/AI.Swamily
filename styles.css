@@ -1,0 +1,173 @@
+/* 'https://static.vecteezy.com/system/resources/thumbnails/008/715/774/small/swimming-pool-with-blue-water-and-circles-vector.jpg') no-repeat center center; */
+/* 'https://images.freeimages.com/clg/images/29/291172/rubber-duck_f?fmt=webp&w=500') no-repeat center center; */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.pool {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('https://static.vecteezy.com/system/resources/thumbnails/008/715/774/small/swimming-pool-with-blue-water-and-circles-vector.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    animation: rippleBackground 60s infinite linear;
+}
+
+
+@keyframes rippleBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+    /* 100% {
+        background-position: 0% 0%;
+    } */
+}
+
+.lane {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 12.5%; /* 100% height divided by 8 lanes */
+    background: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 75%,
+        red 75%,
+        red 80%,
+        transparent 80%,
+        transparent 100%
+    );
+    background-size: 10px 100%; /* Makes the red line dashed */
+}
+
+#lane1 { top: 0%; }
+#lane2 { top: 12.5%; }
+#lane3 { top: 25%; }
+#lane4 { top: 37.5%; }
+#lane5 { top: 50%; }
+#lane6 { top: 62.5%; }
+#lane7 { top: 75%; }
+#lane8 { top: 87.5%; }
+
+.duck {
+    position: absolute;
+    left: -10%;
+    width: 60px;
+    height: 60px;
+    background: url('https://static.vecteezy.com/system/resources/previews/045/955/078/non_2x/rubber-duck-swimming-cartoon-icon-character-free-png.png') no-repeat center center;
+    background-size: contain;
+    z-index: 2; /* Ensure the duck appears above the ripples */
+    animation: swim 8s linear; /* Duck swimming animation */
+}
+
+@keyframes swim {
+    0% { transform: translateX(-10%); }
+    100% { transform: translateX(100vw); }
+}
+
+
+/* Semi-transparent overlay styles */
+.overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 3; /* Ensure it appears above everything else */
+    color: #fff;
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#letterList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    width: 100%; /* Ensure full width for alignment */
+    padding-left: 10px; /* Optional: Add padding to ensure space from the edge */
+}
+
+.letter-item {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure each item spans the full width */
+    margin: 2px 0;
+}
+
+.letter {
+    text-transform: uppercase; /* Convert letters to uppercase */
+    font-size: 48px; /* Make letters larger */
+    font-weight: bold; /* Make letters bolder */
+    text-align: left; /* Align text to the left */
+    white-space: nowrap; /* Prevent the letter from wrapping */
+}
+
+.hello {
+    font-size: 24px; /* Match font size with letter */
+    font-weight: bold; /* Match font weight with letter */
+    color: #0099ff; /* Optional: Different color for "hello" */
+    margin-left: 10px; /* Space between letter and "hello" */
+}
+
+
+#attribution {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+#attribution a {
+    color: #1e90ff; /* TikTok blue or any color of your choice */
+    text-decoration: none;
+}
+
+#attribution a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+{
+    "A": [
+        "Anaerobic Threshold Set", "Aquatic Warm-Up", "Accelerated Freestyle", 
+        "Alternating Kick Drill", "Arm Pull Drill", "Aqua Jogging", 
+        "Ascending Intervals", "Aerobic Freestyle", "Aquatic Circuit"
+    ],
+    "B": [
+        "Butterfly Sprint", "Breaststroke Technique", "Backstroke Endurance", 
+        "Body Position Drill", "Breaststroke Kick Drill", "Breaststroke Pull Drill", 
+        "Burst Freestyle", "Backstroke Kick Sets", "Breaststroke Sprint Sets"
+    ],
+    "C": [
+        "Catch-Up Drill", "Cruise Freestyle", "Continuous Kick", 
+        "Catch-Up Butterfly", "Core Strengthening Sets", "Championship Pace", 
+        "Competitive Freestyle", "Cycle Kick Drill", "Cardio Boost Sets"
+    ],
+    "D": [
+        "Drill Set (IM)", "Distance Freestyle", "Dolphin Kick", 
+        "Drill Sets (Butterfly)", "Drop Sets (Freestyle)", "Drill Intervals", 
+        "Distance IM", "Double Arm Backstroke", "Descending Intervals"
+    ],
+    "E": [
+        "Easy Freestyle", "Endurance Set", "Extended Warm-Up", 
+        "Easy Backstroke", "Early Catch Drill", "Efficient Freestyle", 
+        "Endurance IM", "Easy Pace Butterfly", "Extended Cool Down"
+    ],
+    "F": [
+        "Fast Freestyle", "Fly Technique", "Freestyle Pull", 
+        "Fast Butterfly", "Flutter Kick Sets", "Form Correction Drill", 
+        "Freestyle Intervals", "Fly Kick with Board", "Fartlek Training"
+    ],
+    "G": [
+        "General Warm-Up", "Glide Drill", "Gradual Increase", 
+        "Glide Freestyle", "Goal Pace Sets", "Group Relay Sets", 
+        "General Endurance", "Gliding Butterfly", "Graded Intervals"
+    ],
+    "H": [
+        "High-Intensity Sprint", "Head-Up Freestyle", "Hypoxic Drill", 
+        "High-Speed Freestyle", "Hand Entry Drill", "High-Intensity IM", 
+        "Head-Up Backstroke", "Hybrid Sets", "Hydration Break Sets"
+    ],
+    "I": [
+        "Individual Medley (IM)", "Interval Training", "IM Transition Drill", 
+        "IM Drill Sets", "Intensive Freestyle", "Individual Stroke Focus", 
+        "IM Technique Work", "Interval Freestyle", "Intensity Building"
+    ],
+    "J": [
+        "Jump Start Freestyle", "Jellyfish Drill (Butterfly)", "Javelin Stroke", 
+        "Joyful Swim Sets", "Jiggle Drill (Backstroke)", "Jellyfish Kick Drill", 
+        "Javelin Freestyle", "Jumping Jacks (Dryland)", "Jellyfish Interval Sets"
+    ],
+    "K": [
+        "Kick Set (Freestyle)", "Kicking Drill (Backstroke)", "Kicking with Board", 
+        "Kick Board Work", "Kicking Intervals", "Kicking Drill (Butterfly)", 
+        "Kicking Speed Work", "Kick for Distance", "Kick Technique Drills"
+    ],
+    "L": [
+        "Long Distance Freestyle", "Leg Work (Breaststroke)", "Light Stroke Drill", 
+        "Long Kick Sets", "Leg Strength Drills", "Ladder Sets", 
+        "Long IM Sets", "Light Freestyle Drill", "Lactate Threshold Training"
+    ],
+    "M": [
+        "Mixed Medley", "Main Set (IM)", "Mile Swim Drill", 
+        "Medley Relay Sets", "Main Set (Freestyle)", "Mixed Stroke Intervals", 
+        "Mid-Distance Freestyle", "Medley Kick Sets", "Mile Time Trials"
+    ],
+    "N": [
+        "No Rest Sets (Freestyle)", "Negative Splits", "Normal Pace Swim", 
+        "No Rest IM", "Negative Split Freestyle", "No Rest Butterfly", 
+        "Normal Pace Backstroke", "No Rest Drills", "Nervous System Prep Sets"
+    ],
+    "O": [
+        "Over-Distance Training", "Optimal Stroke Drill", "Ocean Swim Simulation", 
+        "Over-Distance IM", "Optimal Freestyle Sets", "Over-Speed Training", 
+        "Open Water Practice", "Optimal Technique Drills", "Ocean Current Simulation"
+    ],
+    "P": [
+        "Pace Work (Freestyle)", "Power Set (Butterfly)", "Pull Buoy Drill", 
+        "Pace Work (IM)", "Power Intervals", "Pull Sets (Backstroke)", 
+        "Pace Adjustment Drills", "Power Freestyle", "Progressive Sets"
+    ],
+    "Q": [
+        "Quick Sprint", "Quality Freestyle Set", "Quarter Turns Drill", 
+        "Quick IM Intervals", "Quality Technique Work", "Quarter-Pace Sets", 
+        "Quick-Fire Drills", "Quality Stroke Work", "Quarter Drill Intervals"
+    ],
+    "R": [
+        "Recovery Swim", "Race Pace (IM)", "Regular Stroke Set", 
+        "Recovery Intervals", "Race Preparation Drills", "Recovery Freestyle", 
+        "Race Simulation", "Regular IM Sets", "Restorative Swim Sets"
+    ],
+    "S": [
+        "Sprint Set (Freestyle)", "Stroke Technique (Backstroke)", "Speed Drill (Butterfly)", 
+        "Sprint Intervals", "Speed Work (Freestyle)", "Stroke Refinement Sets", 
+        "Sprint Freestyle", "Speed IM Drills", "Stroke Technique Work"
+    ],
+    "T": [
+        "Threshold Training", "Timed Trial (Freestyle)", "Technique Focus", 
+        "Threshold IM", "Timed Intervals", "Technique Drills (All Strokes)", 
+        "Threshold Sets (Backstroke)", "Timed IM Sets", "Technique Refinement"
+    ],
+    "U": [
+        "Underwater Kick Drill", "Ultimate Sets (IM)", "Up-and-Down Drill (Freestyle)", 
+        "Underwater Swim Sets", "Ultimate Freestyle", "Up-and-Down Kick Drill", 
+        "Underwater IM Drills", "Ultimate Technique Sets", "Underwater Drills"
+    ],
+    "V": [
+        "Variable Pace Swim", "Vortex Drill (Butterfly)", "Velocity Set (Freestyle)", 
+        "Variable Intervals", "Vortex Training", "Velocity IM Sets", 
+        "Variable Pace Drills", "Vortex Kicking", "Velocity Training Sets"
+    ],
+    "W": [
+        "Warm-Up Set", "Wave Drill (Backstroke)", "Workout Plan (Freestyle)", 
+        "Warm-Up IM", "Wave Kick Drill", "Workout Interval Sets", 
+        "Warm-Up Drills", "Wave Freestyle Sets", "Workout Plan (IM)"
+    ],
+    "X": [
+        "X-Drill (IM)", "Xtra Distance (Freestyle)", "Xtreme Sprint (Butterfly)", 
+        "X-Training Drills", "Xtra Kick Sets", "Xtreme IM Training", 
+        "X-Drill (Backstroke)", "Xtra Technique Work", "Xtreme Endurance Sets"
+    ],
+    "Y": [
+        "Yardage Training", "Yard Work (Freestyle)", "Yearly Plan (IM)", 
+        "Yardage Freestyle", "Year-Round Training", "Yard Kick Sets", 
+        "Yearly Distance Training", "Yardage Workouts", "Year-Round IM Sets"
+    ],
+    "Z": [
+        "Zipper Drill (Freestyle)", "Z-Fly Set (Butterfly)", "Zigzag Drill (Backstroke)", 
+        "Zipper Kick Drill", "Z-Fly Training", "Zigzag IM Sets", 
+        "Zipper Pull Drills", "Z-Fly Endurance", "Zigzag Speed Work"
+    ]
+}
